@@ -2,7 +2,8 @@
 
 Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyclists-and-pedestrians-in-pittsburgh
 
-From initial data understanding, there are:  <br>
+Initial data understanding:  <br>
+
 #1. 795 records in the file avsurvey2019data.csv <br>
 #2. There are no duplicates in the There are duplicates in the av_2019 Survey data. <br>
 #3. Respondent ID are populated for all records.  <br>
