@@ -24,9 +24,9 @@ There are no duplicates in the file.
 AvImpact
 
 ## Individual variables
-RespondentID, StartDate, EndDate, FamiliarityNews,FamiliarityTech,SharedCyclist,SharedPedestrian,SafeAv,SafeHuman <br>
-,ProvingGround,Speed25Mph,TwoEmployeesAv,SchoolZoneManual,ShareTripData,SharePerformanceData,ReportSafetyIncident,ArizonaCrash <br>
-,ZipCode,BikePghMember,AutoOwner,SmartphoneOwner,Age
+RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyclist, SharedPedestrian, SafeAv, SafeHuman <br>
+,ProvingGround, Speed25Mph, TwoEmployeesAv, SchoolZoneManual, ShareTripData, SharePerformanceData, ReportSafetyIncident, ArizonaCrash <br>
+,ZipCode, BikePghMember, AutoOwner, SmartphoneOwner, Age
 
 
 
@@ -35,4 +35,5 @@ RespondentID, StartDate, EndDate, FamiliarityNews,FamiliarityTech,SharedCyclist,
 ## Relationship between explanatory variables and target variable
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/82e1c3e3-d2cf-4553-8272-06f1ea1c7b17)
 
+![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/8e5e889d-54cf-4533-89e5-320577462dfa)
 
