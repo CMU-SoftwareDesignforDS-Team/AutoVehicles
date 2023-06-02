@@ -38,37 +38,31 @@ RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyc
   - p-value: 1.1230747446149663e-15
   - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and FamiliarityNews variable. 
 
-<br>
 - Chi-Square Test of Independence between AvImpact and FamiliarityTech:
  - Chi-square statistic: 104.41011509622234
  - p-value: 7.58239390786594e-17
  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and FamiliarityTech variable.
 
-<br>
 - Chi-Square Test of Independence between AvImpact and SharedCyclist:
  - Chi-square statistic: 25.326990355545824
  - p-value: 0.0013680640510576533
  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and SharedCyclist variable.
 
-<br>
 - Chi-Square Test of Independence between AvImpact and SharedPedestrian:
  - Chi-square statistic: 31.770161501708184
  - p-value: 0.00010239522867610294
  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and SharedPedestrian variable.
 
-<br>
 - Chi-Square Test of Independence between AvImpact and ReportSafetyIncident:
  - Chi-square statistic: 27.432193943794726
  - p-value: 0.000595175525812886
  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and ReportSafetyIncident variable.
 
-<br>
 - Chi-Square Test of Independence between AvImpact and ArizonaCrash:
  - Chi-square statistic: 267.17157620904067
  - p-value: 1.5328841708201278e-47
  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and ArizonaCrash variable.
 
-<br>
 - Chi-Square Test of Independence between AvImpact and Age:
  - Chi-square statistic: 38.5402521362788
  - p-value: 0.030499256116509887
