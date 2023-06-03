@@ -15,6 +15,7 @@ IDEAR allows you to output the data summary, statistics, and charts that you wan
  ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/82e1c3e3-d2cf-4553-8272-06f1ea1c7b17) <br>
 6. Age Group 25-34 has the most number of respondents.
    | Age      | Count | 
+   | -------- | ------|
    | 18-24    | 34    | 
    | 25-34    | 205   | 
    | 35-44    | 176   |
