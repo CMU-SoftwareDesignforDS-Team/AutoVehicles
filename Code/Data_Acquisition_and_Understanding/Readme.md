@@ -1,4 +1,4 @@
-# This folder hosts code for data acquisition and understanding (exploratory analysis)
+# This folder hosts code for data acquisition and understanding 
 
 Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyclists-and-pedestrians-in-pittsburgh
 
