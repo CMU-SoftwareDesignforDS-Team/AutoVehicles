@@ -23,6 +23,5 @@ The findings from the exploratory data analysis are documented in the https://gi
 ### Contributing
 Contributions to this project are welcome. If you have any suggestions, improvements, or additional analyses, please feel free to submit a pull request. <br>
 
-### Contact
-For any questions or inquiries, please contact [provide contact information].:  <br>
+
 
