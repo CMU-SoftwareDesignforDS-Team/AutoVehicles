@@ -11,10 +11,10 @@ The dataset used for this analysis is located in the Data directory. It consists
 ### Code
 The code for the EDA is written in Python. The main script for the analysis is EDA.ipynb, located in the Code directory. This script performs the following steps: 
 
-Data loading: The dataset is loaded into memory from the data directory. <br>
-Data cleaning: Any missing values or outliers are handled, and necessary data transformations are performed. <br>
-Data exploration: Various statistical measures, visualizations, and descriptive analysis techniques are applied to understand the dataset's characteristics. <br>
-Insights and findings: Key findings and insights from the analysis are summarized and presented. <br>
+- Data loading: The dataset is loaded into memory from the data directory. <br>
+- Data cleaning: Any missing values or outliers are handled, and necessary data transformations are performed. <br>
+- Data exploration: Various statistical measures, visualizations, and descriptive analysis techniques are applied to understand the dataset's characteristics. <br>
+- Insights and findings: Key findings and insights from the analysis are summarized and presented. <br>
 
 
 ### Results
