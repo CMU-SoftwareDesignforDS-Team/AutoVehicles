@@ -69,12 +69,12 @@ RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyc
 - Chi-Square Test of Independence between AvImpact and SafeAv:
   - Chi-square statistic: 791.5091669693057
   - p-value: 7.463046968349864e-151
-  - Interpretation: The p-value is small, indicating that there is significant evidence to suggest an association between AvImpact and SafeAv variable.
+  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and SafeAv variable.
   
 - Chi-Square Test of Independence between AvImpact and SafeHuman:
   - Chi-square statistic: 103.68913115677037
   - p-value: 1.489673081556701e-11
-  - Interpretation: The p-value is small, indicating that there is significant evidence to suggest an association between AvImpact and SafeHuman variable.
+  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and SafeHuman variable.
   
 - Chi-Square Test of Independence between AvImpact and ReportSafetyIncident:
   - Chi-square statistic: 27.432193943794726
