@@ -59,17 +59,27 @@ RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyc
 - Chi-Square Test of Independence between AvImpact and SharedCyclist:
   - Chi-square statistic: 25.326990355545824
   - p-value: 0.0013680640510576533
-  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and SharedCyclist variable.
+  - Interpretation: The p-value is small, indicating that there is significant evidence to suggest an association between AvImpact and SharedCyclist variable.
 
 - Chi-Square Test of Independence between AvImpact and SharedPedestrian:
   - Chi-square statistic: 31.770161501708184
   - p-value: 0.00010239522867610294
-  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and SharedPedestrian variable.
+  - Interpretation: The p-value is small, indicating that there is significant evidence to suggest an association between AvImpact and SharedPedestrian variable.
 
+- Chi-Square Test of Independence between AvImpact and SafeAv:
+  - Chi-square statistic: 791.5091669693057
+  - p-value: 7.463046968349864e-151
+  - Interpretation: The p-value is small, indicating that there is significant evidence to suggest an association between AvImpact and SafeAv variable.
+  
+- Chi-Square Test of Independence between AvImpact and SafeHuman:
+  - Chi-square statistic: 103.68913115677037
+  - p-value: 1.489673081556701e-11
+  - Interpretation: The p-value is small, indicating that there is significant evidence to suggest an association between AvImpact and SafeHuman variable.
+  
 - Chi-Square Test of Independence between AvImpact and ReportSafetyIncident:
   - Chi-square statistic: 27.432193943794726
   - p-value: 0.000595175525812886
-  - Interpretation: The p-value is very small, indicating that there is significant evidence to suggest an association between AvImpact and ReportSafetyIncident variable.
+  - Interpretation: The p-value is small, indicating that there is significant evidence to suggest an association between AvImpact and ReportSafetyIncident variable.
 
 - Chi-Square Test of Independence between AvImpact and ArizonaCrash:
   - Chi-square statistic: 267.17157620904067
@@ -80,8 +90,8 @@ RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyc
   - Chi-square statistic: 38.5402521362788
   - p-value: 0.030499256116509887
   - Interpretation: The p-value is relatively large, indicating that there is no significant evidence to suggest an association between AvImpact and ReportSafetyIncident Age.
-
 <br>
+
 
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/8e5e889d-54cf-4533-89e5-320577462dfa)
 
