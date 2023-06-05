@@ -31,6 +31,8 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
 - There are no duplicates in the file.
 - Categorical missing values: treat missing values as a separate category. 
 - Numerical missing values: The variable SafeAv and SafeHuman are left-skewed. We chose to use Mean Imputation. <br>
+  ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/b18e4afc-7422-414c-b053-e3f84640683f)
+
   After imputation: <br>
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/26731c66-e7bd-4421-92f8-6ced27315755)
 
