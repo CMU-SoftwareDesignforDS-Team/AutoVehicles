@@ -1,18 +1,20 @@
 # Data Report for 2019 Survey Responses
-This file will be generated for each data file received or processed. The Interactive Data Exploration, Analysis, and Reporting (IDEAR) utility developed by TDSP team of Microsoft can help you explore and visualize the data in an interactive way, and generate the data report along with the process of exploration and visualization. <br>
 Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyclists-and-pedestrians-in-pittsburgh
-
-IDEAR allows you to output the data summary, statistics, and charts that you want to use to tell the data story into the report. You only need to click a few buttons, and the report will be generated for you. 
 
 ## General summary of the data
 
 1. 795 records in the file avsurvey2019data.csv <br>
 2. There are no duplicates in the av_2019 Survey data. <br>
-3. Respondent ID are populated for all records.  <br>
+3. Respondent ID are populated for all records.  Below are the missing value count for all variables: 
+   
+  ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/711ff1ee-cbf4-409d-90d8-20622d005f76) <br> 
+  
 4. Majority of participants think the Auto Vehicles will have a better impact on traffic injuries and fatalities. 
  ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/538c24e0-d269-4dfa-b2a0-e0682978962d) <br>
+ 
 5. Within the positive AvImpact category, the age group 25-34 has the most respondents. 
  ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/82e1c3e3-d2cf-4553-8272-06f1ea1c7b17) <br>
+ 
 6. Age Group 25-34 has the most number of respondents.
    | Age      | Count | 
    | -------- | ------|
@@ -26,9 +28,13 @@ IDEAR allows you to output the data summary, statistics, and charts that you wan
  <br>
 
 ## Data quality summary
-There are no duplicates in the file.
-
+- There are no duplicates in the file.
+- Categorical missing values: treat missing values as a separate category. 
+- Numerical missing values: The variable SafeAv and SafeHuman are left-skewed. We chose to use Mean Imputation. 
+  Before imputation: 
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/3a42e552-8928-4baf-be1b-30dc215891af)
+  After imputation: 
+![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/327e1005-3421-415c-b9eb-59c264050f87)
 
 
 
@@ -39,11 +45,7 @@ AvImpact
 RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyclist, SharedPedestrian, SafeAv, SafeHuman <br>
 ,ProvingGround, Speed25Mph, TwoEmployeesAv, SchoolZoneManual, ShareTripData, SharePerformanceData, ReportSafetyIncident, ArizonaCrash, ZipCode, BikePghMember, AutoOwner, SmartphoneOwner, Age
 
-
-
-## Variable ranking
-
-## Relationship between explanatory variables and target variable
+## Relationship between explanatory variables and target variable <br>
 
 - Chi-Square Test of Independence between AvImpact and FamiliarityNews:
   - Chi-square statistic: 107.89976254046921
