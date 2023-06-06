@@ -38,7 +38,7 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
   Yes         493<br>
 <br>
 5. The majority of surveyed people in 2017 public survey were somewhat familiar with the technology behind AVs.<br>
-<img width="399" alt="image" src=https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/d4bab31a-69ef-40b5-8df6-e0f666af632f>
+<img width="386" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/25f84c5e-5511-457e-b901-2da1d3156a69">
 <br>
   FamiliarityTechnoology<br>
   Extremely familiar      74<br>
@@ -49,7 +49,7 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
   Somewhat familiar      336<br>
 <br>
 6. The majority of people in the 2017 public dataset paid a moderate amount of attention to the subject of AVs in the news.<br>
-<img width="399" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/9829f100-5ae8-4165-bc1b-7cba021907d9">
+<img width="391" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/a7bb3ece-39c7-47b1-9623-59a4a142067d">
 <br>
   PayingAttentionAV<br>
   Missing                  14<br>
