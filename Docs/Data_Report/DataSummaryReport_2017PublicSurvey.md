@@ -6,7 +6,6 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
 1. There are 813 records in the file bikepghpublic2017.csv <br>
 2. There are no duplicates in the bikepghpublic2017 survey data. <br>
 3. Respondent ID are populated for all records.  Below are the missing value count for all variables:<br>
-   
   Response ID                 0<br>
   Start Date                  0<br>
   End Date                    0<br>
@@ -28,17 +27,16 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
   PayingAttentionAV          14<br>
   FamiliarityTechnoology     14<br>
   ZipCode                    14<br>
-<br> 
-  
+<br>
 4. The majority of participants in the 2017 public survey think the Autonomous Vehicles will have a better impact on injuries and fatalities.<br>
-<img width="399" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/ff94ee36-1edd-46ae-9302-a1056f846b0e"><br>
+<img width="399" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/ff94ee36-1edd-46ae-9302-a1056f846b0e">
+<br>
   AVSafetyPotential<br>
   Maybe       174<br>
   No           63<br>
   Not sure     69<br>
   Yes         493<br>
 <br>
- 
 5. The majority of surveyed people in 2017 public survey were somewhat familiar with the technology behind AVs.<br>
 <img width="387" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/7102ae55-294b-4dd9-8c4d-d857dd6ed3b9">
 <br>
@@ -49,7 +47,6 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
   Not familiar at all     54<br>
   Somewhat familiar      336<br>
 <br>
-
 6. The majority of people in the 2017 public dataset paid a moderate amount of attention to the subject of AVs in the news.<br>
 <img width="385" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/62c00bf7-818a-4f5a-987f-733ccc8ddc03">
 <br>
