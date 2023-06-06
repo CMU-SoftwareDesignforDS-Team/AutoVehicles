@@ -53,32 +53,33 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
 6. The majority of people in the 2017 public dataset paid a moderate amount of attention to the subject of AVs in the news.<br>
 <img width="385" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/62c00bf7-818a-4f5a-987f-733ccc8ddc03">
 <br>
-PayingAttentionAV<br>
-Not at all               12<br>
-To a large extent       208<br>
-To a moderate extent    261<br>
-To little extent         78<br>
-To some extent          240<br>
-
+   PayingAttentionAV<br>
+   Not at all               12<br>
+   To a large extent       208<br>
+   To a moderate extent    261<br>
+   To little extent         78<br>
+   To some extent          240<br>
+<br>
 7. The people in this 2017 survey had a better outlook on safety with AVs versus human-driven vehicles.<br>
 <img width="386" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/0e371612-46b9-4113-a8be-acbf700217ea">
 <br>
-  SafetyAV<br>
-  1                 50<br>
-  2                 80<br>
-  3                177<br>
-  4                255<br>
-  5                153<br>
-  No experience     84<br>
+   SafetyAV<br>
+   1                 50<br>
+   2                 80<br>
+   3                177<br>
+   4                255<br>
+   5                153<br>
+   No experience     84<br>
+<br>
 <img width="385" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/5b33ab59-51bb-45e4-ba57-0f3d44cfc0b1">
 <br>
-  SafetyHuman<br>
-  1                 43<br>
-  2                215<br>
-  3                308<br>
-  4                193<br>
-  5                 34<br>
-  No experience      6<br>
+   SafetyHuman<br>
+   1                 43<br>
+   2                215<br>
+   3                308<br>
+   4                193<br>
+   5                 34<br>
+   No experience      6<br>
 <br>
 
 ## Data quality summary
