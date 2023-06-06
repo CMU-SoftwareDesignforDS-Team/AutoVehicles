@@ -5,76 +5,76 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
 
 1. There are 813 records in the file bikepghpublic2017.csv <br>
 2. There are no duplicates in the bikepghpublic2017 survey data. <br>
-3. Respondent ID are populated for all records.  Below are the missing value count for all variables: 
+3. Respondent ID are populated for all records.  Below are the missing value count for all variables:<br>
    
-  Response ID                 0
-  Start Date                  0
-  End Date                    0
-  Status                      0
-  Source Type                 0
-  InteractPedestrian         14
-  InteractBicycle            14
-  CircumstancesCoded        410
-  FeelingsProvingGround      14
-  SafetyHuman                14
-  SafetyAV                   14
-  AVSafetyPotential          14
-  RegulationTesting          14
-  RegulationSpeed            14
-  RegulationSchoolZone       14
-  RegulationShareData        14
-  AdvocacyIssues             20
-  BikePghPosition            14
-  PayingAttentionAV          14
-  FamiliarityTechnoology     14
-  ZipCode                    14
+  Response ID                 0<br>
+  Start Date                  0<br>
+  End Date                    0<br>
+  Status                      0<br>
+  Source Type                 0<br>
+  InteractPedestrian         14<br>
+  InteractBicycle            14<br>
+  CircumstancesCoded        410<br>
+  FeelingsProvingGround      14<br>
+  SafetyHuman                14<br>
+  SafetyAV                   14<br>
+  AVSafetyPotential          14<br>
+  RegulationTesting          14<br>
+  RegulationSpeed            14<br>
+  RegulationSchoolZone       14<br>
+  RegulationShareData        14<br>
+  AdvocacyIssues             20<br>
+  BikePghPosition            14<br>
+  PayingAttentionAV          14<br>
+  FamiliarityTechnoology     14<br>
+  ZipCode                    14<br>
 <br> 
   
-4. The majority of participants in the 2017 public survey think the Autonomous Vehicles will have a better impact on injuries and fatalities. 
+4. The majority of participants in the 2017 public survey think the Autonomous Vehicles will have a better impact on injuries and fatalities.<br>
   
-  AVSafetyPotential
-  Maybe       174
-  No           63
-  Not sure     69
-  Yes         493
+  AVSafetyPotential<br>
+  Maybe       174<br>
+  No           63<br>
+  Not sure     69<br>
+  Yes         493<br>
 <br>
  
-5. The majority of surveyed people in 2017 public survey were somewhat familiar with the technology behind AVs.
+5. The majority of surveyed people in 2017 public survey were somewhat familiar with the technology behind AVs.<br>
 
-  FamiliarityTechnoology
-  Extremely familiar      74
-  Mostly Unfamiliar      165
-  Mostly familiar        170
-  Not familiar at all     54
-  Somewhat familiar      336
+  FamiliarityTechnoology<br>
+  Extremely familiar      74<br>
+  Mostly Unfamiliar      165<br>
+  Mostly familiar        170<br>
+  Not familiar at all     54<br>
+  Somewhat familiar      336<br>
 <br>
 
-6. The majority of people in the 2017 public dataset paid a moderate amount of attention to the subject of AVs in the news.
+6. The majority of people in the 2017 public dataset paid a moderate amount of attention to the subject of AVs in the news.<br>
 
-PayingAttentionAV
-Not at all               12
-To a large extent       208
-To a moderate extent    261
-To little extent         78
-To some extent          240
+PayingAttentionAV<br>
+Not at all               12<br>
+To a large extent       208<br>
+To a moderate extent    261<br>
+To little extent         78<br>
+To some extent          240<br>
 
-7. The people in this 2017 survey had a better outlook on safety with AVs versus human-driven vehicles.
+7. The people in this 2017 survey had a better outlook on safety with AVs versus human-driven vehicles.<br>
 
-  SafetyAV
-  1                 50
-  2                 80
-  3                177
-  4                255
-  5                153
-  No experience     84
+  SafetyAV<br>
+  1                 50<br>
+  2                 80<br>
+  3                177<br>
+  4                255<br>
+  5                153<br>
+  No experience     84<br>
 
-  SafetyHuman
-  1                 43
-  2                215
-  3                308
-  4                193
-  5                 34
-  No experience      6
+  SafetyHuman<br>
+  1                 43<br>
+  2                215<br>
+  3                308<br>
+  4                193<br>
+  5                 34<br>
+  No experience      6<br>
 <br>
 
 ## Data quality summary
@@ -85,8 +85,8 @@ To some extent          240
 AvSafetyPotential
 
 ## Individual variables
-Response ID, Start Date, End Date, Status, Source Type, InteractPedestrian, InteractBicycle, CircumstancesFreeText, CircumstancesCoded,<br>
-FeelingsProvingGround, SafetyHuman, SafetyAV, AVSafetyPotential, RegulationTesting, RegulationSpeed, RegulationSchoolZone, RegulationShareData, <br>
+Response ID, Start Date, End Date, Status, Source Type, InteractPedestrian, InteractBicycle, CircumstancesFreeText, CircumstancesCoded,
+FeelingsProvingGround, SafetyHuman, SafetyAV, AVSafetyPotential, RegulationTesting, RegulationSpeed, RegulationSchoolZone, RegulationShareData,
 OtherRegulations, AdvocacyIssues,BikePghPosition, BikePghElaborate, PayingAttentionAV, FamiliarityTechnoology, MoreToShare, ZipCode <br>
 
 ## Relationship between explanatory variables and target variable
@@ -120,4 +120,3 @@ OtherRegulations, AdvocacyIssues,BikePghPosition, BikePghElaborate, PayingAttent
   - Chi-square statistic: 94.23745665148141
   - p-value: 7.429142771739588e-15
   - Interpretation: The low p-value (p-value <= 0.05) suggests that there is a statistically significant association between AvSafetyPotential and FamiliarityTechnoology
-<br>
