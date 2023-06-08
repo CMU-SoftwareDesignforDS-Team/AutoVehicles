@@ -29,7 +29,7 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
   ZipCode                    20<br>
 <br>
 4. The majority of participants in the 2017 members survey think the Autonomous Vehicles will have a better impact on injuries and fatalities.<br>
-<img width="399" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/ff94ee36-1edd-46ae-9302-a1056f846b0e">
+<img width="400" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/134182318/2a593ebd-7d81-4592-afab-6e6b7362b6e4">
 <br>
   AVSafetyPotential<br>
   Maybe        54<br>
@@ -38,7 +38,7 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
   Yes         232<br>
 <br>
 5. The majority of surveyed people in 2017 members survey were somewhat familiar with the technology behind AVs.<br>
-<img width="386" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/25f84c5e-5511-457e-b901-2da1d3156a69">
+<img width="400" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/134182318/ed627194-3d3b-4f64-a47f-ee2c5ab0bf4d">
 <br>
   FamiliarityTechnoology<br>
   Extremely familiar      33<br>
@@ -48,7 +48,7 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
   Somewhat familiar      144<br>
 <br>
 6. The majority of people in the 2017 members dataset paid a moderate amount of attention to the subject of AVs in the news.<br>
-<img width="391" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/a7bb3ece-39c7-47b1-9623-59a4a142067d">
+<img width="400" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/134182318/3c8e9689-8af4-49c6-be17-7071df3aee1d">
 <br>
   PayingAttentionAV<br>
   Not at all                3<br>
@@ -58,7 +58,7 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
   To some extent           97<br>
 <br>
 7. The members in this 2017 survey had a better outlook on safety with AVs versus human-driven vehicles.<br>
-<img width="386" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/0e371612-46b9-4113-a8be-acbf700217ea">
+<img width="400" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/134182318/bd0d218d-12b2-4141-b27e-8b5ac2b3f5da">
 <br>
    SafetyAV<br>
    1                  9<br>
@@ -68,7 +68,7 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
    5                 54<br>
    No experience     33<br>
 <br>
-<img width="385" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/5b33ab59-51bb-45e4-ba57-0f3d44cfc0b1">
+<img width="400" alt="image" src="https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/134182318/1395989c-d4d0-47b2-bd14-2458a6ff866c">
 <br>
    SafetyHuman<br>
    1                 16<br>
