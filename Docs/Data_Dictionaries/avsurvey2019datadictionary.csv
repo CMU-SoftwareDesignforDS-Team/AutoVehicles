@@ -1,0 +1,24 @@
+FieldName,Description or Question,Range of Responses
+RespondentID,Respondent ID,N/A
+StartDate,Date survey started,N/A
+EndDate,Date Survey Completed,N/A
+FamiliarityNews,To what extent have you been paying attention to the subject of AVs in the news?,To a large extent; to a moderate extent; to some extent; to little extent; not at all
+FamiliarityTech,How familiar are you with the technology behind autonomous vehicles?,Extremely familiar; mostly familiar; somewhat familiar; not familiar at all
+SharedCyclist,Have you†shared the road†with an Autonomous Vehicle (AV) while riding your bicycle on the streets of Pittsburgh?,yes; no; not sure
+SharedPedestrian,Have you been†near an AV while walking or using a mobility device (wheelchair; etc) in Pittsburgh?,yes; no; not sure
+SafeAv,On a typical day; how safe do you feel sharing the road with autonomous vehicles? (1 being very unsafe and 5 being very safe),1 being very unsafe and 5 being very safe
+SafeHuman,On a typical day; how safe do you feel sharing the road with human-driven cars? (1 being very unsafe and 5 being very safe),1 being very unsafe and 5 being very safe
+AvImpact,What effect do you†think that AVs will have†on traffic injuries and fatalities?,Significantly better; significantly worse; slightly better; slightly worse; no effect
+ProvingGround,What do you think†about the use of Pittsburgh's public streets as a proving ground for Autonomous Vehicles?,Approve; somewhat approve; neutral; somewhat approve; somewhat disapprove
+Speed25Mph,On City of Pittsburgh public streets; should AV speeds be capped at 25 mph when operating in autonomous modeù?,yes; no; not sure
+TwoEmployeesAv,On City of Pittsburgh public streets; should AVs have two full-time employees (pilot and co-pilot) at all times?,yes; no; not sure
+SchoolZoneManual,On City of Pittsburgh public streets; do you think that AVs should operate in manual mode while in an active school zone?,yes; no; not sure
+ShareTripData,On City of Pittsburgh public streets; should AV companies be required to share some non-personal data (e.g. number of trips; pickup/drop off locations; number of miles driven) with the proper authorities (e.g. Department of Mobility; PennDOT; Public Safety)?,yes; no; not sure
+SharePerformanceData,On City of Pittsburgh public streets; should†AV companies be required to disclose information and data as to the limitations; capabilities; and real-world performance of their cars with the proper authorities?,yes; no; not sure
+ReportSafetyIncident,On City of Pittsburgh public streets; should AV companies be required to report all safety-related incidents with the proper authorities; even if a police report isn't required?,yes; no; not sure
+ArizonaCrash,In March of 2018; an AV struck and killed Elaine Herzberg; a pedestrian; in Tempe; AZ. As a pedestrian and/or bicyclist; how did this event and its outcome change your opinion about sharing the road with AVs?,"Significantly more negative opinion; somewhat more negative opinion, no change; somewhat more positive opinion; ssignificantly more positive opinion"
+ZipCode,Zip Code,zip code (open response)
+BikePghMember,Are you currently an active member of BikePGH?,yes; no; not sure
+AutoOwner,Do you (or someone in your household) own an automobile?,yes; no; not sure
+SmartphoneOwner,Do you own a smartphone?,yes; no
+Age,What is your age?,Under 18; 18-24; 25-34; 35-44; 45-54; 55-64; 65+
