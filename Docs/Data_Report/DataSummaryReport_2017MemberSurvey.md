@@ -1,4 +1,4 @@
-# Data Report for 2017 Public Survey Responses
+# Data Report for 2017 Members Survey Responses
 Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyclists-and-pedestrians-in-pittsburgh
 
 ## General summary of the data
