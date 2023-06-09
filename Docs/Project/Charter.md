@@ -46,6 +46,7 @@
 * Azure Machine Learning (Azure ML) for modeling and web service operationalization: Azure ML can be used to build predictive models based on the data and operationalize them as web services.
 * Azure Data Factory (ADF) or other data movement tools: ADF or other similar tools can be used to orchestrate the movement of data from on-premises to Azure.
 * Once the predictive models are built and operationalized as web services, the client can consume them in their business workflow by using the web service APIs to make predictions for new customer data. The pseudo code for calling the web service API might look like this:
+	```
 	# Pseudo code for calling the web service API
 	import requests
 
@@ -66,7 +67,7 @@
 
 	# Extract the prediction result from the response
 	prediction = response.json()["prediction"]
-
+	```
 
 *The customer can use the model results, which predict the likelihood of a customer's interest in using the AV taxi service, to make decisions regarding targeted marketing efforts. By identifying customers who are more likely to be interested in the service, the client can focus their promotional efforts on those individuals, such as offering them free AV taxi rides through email and social media. This targeted approach can help increase the usage rate of the autonomous taxi app and ultimately improve market share and company image.
 
@@ -74,9 +75,13 @@
 
 
 * End to end data flow
+	* Before
+		![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/fe1b5031-3296-4498-92c8-c4c72e72465c)
+		![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/d37bb31f-6ac1-44e1-9787-bcbe2750147c)
+	* After
+		![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/ca78f95d-7fea-44d7-86f6-eab1e9be1af6)
+		![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/607e7952-0e1e-4ca4-9f8f-8cc7a1dfe1e3)
 
-	
-	
 
 ## Communication
 * Weekly meetings are conducted to make sure work has been completed per schedule
