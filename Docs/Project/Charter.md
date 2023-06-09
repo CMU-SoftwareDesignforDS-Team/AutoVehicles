@@ -75,10 +75,10 @@
 
 
 * End to end data flow
-	* Before
+	* Before <br>
 		![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/fe1b5031-3296-4498-92c8-c4c72e72465c)
 		![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/d37bb31f-6ac1-44e1-9787-bcbe2750147c)
-	* After
+	* After <br>
 		![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/ca78f95d-7fea-44d7-86f6-eab1e9be1af6)
 		![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/607e7952-0e1e-4ca4-9f8f-8cc7a1dfe1e3)
 
