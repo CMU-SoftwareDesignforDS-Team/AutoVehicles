@@ -96,31 +96,31 @@ OtherRegulations, AdvocacyIssues,BikePghPosition, BikePghElaborate, PayingAttent
 ## Relationship between explanatory variables and target variable
 
 - Chi-Square Test of Independence between AvSafetyPotential and InteractPedestrian:
-  - Chi-square statistic: 17.753718398683787
-  - p-value: 0.006878060817184138
+  - Chi-square statistic: 746.9116039491587
+  - p-value: 3.963315817250607e-152
   - Interpretation: The low p-value (p-value <= 0.05) suggests a potential association between AvSafetyPotential and InteractPedestrian
 
 - Chi-Square Test of Independence between AvSafetyPotential and InteractBicycle:
-  - Chi-square statistic: 13.983662786207557
-  - p-value: 0.029819192970087352
+  - Chi-square statistic: 743.6187004560982
+  - p-value: 2.0115694215670432e-151
   - Interpretation: The low p-value (p-value <= 0.05) suggests a potential association between AvSafetyPotential and InteractBicycle
 
 - Chi-Square Test of Independence between AvSafetyPotential and SafetyHuman:
-  - Chi-square statistic: 14.540929459947856
-  - p-value: 0.484961461359284
-  - Interpretation: The low p-value (p-value <= 0.05) suggests that there is a statistically significant association between AvSafetyPotential and SafetyHuman
+  - Chi-square statistic: 743.4829955860398
+  - p-value: 1.3732178682730587e-144
+  - Interpretation: The low p-value (p-value <= 0.05) suggests that there is a significant association between AvSafetyPotential and SafetyHuman
 
 - Chi-Square Test of Independence between AvSafetyPotential and SafetyAV:
-  - Chi-square statistic: 339.10094276311753
-  - p-value: 3.984269194143067e-63
+  - Chi-square statistic: 1074.153082609973
+  - p-value: 5.868264973714982e-215
   - Interpretation: The low p-value (p-value <= 0.05) suggests that there is a significant association between AvSafetyPotential and SafetyAV
 
 - Chi-Square Test of Independence between AvSafetyPotential and PayingAttentionAV:
-  - Chi-square statistic: 82.76657270422899
-  - p-value: 1.2212077281265502e-12
+  - Chi-square statistic: 804.5547596590504
+  - p-value: 1.527294304575926e-157
   - Interpretation: The low p-value (p-value <= 0.05) suggests that there is a significant association between AvSafetyPotential and PayingAttentionAV:
 
 - Chi-Square Test of Independence between AvSafetyPotential and FamiliarityTechnoology:
-  - Chi-square statistic: 94.23745665148141
-  - p-value: 7.429142771739588e-15
+  - Chi-square statistic: 824.6057138911759
+  - p-value: 8.431203205257718e-162
   - Interpretation: The low p-value (p-value <= 0.05) suggests that there is a statistically significant association between AvSafetyPotential and FamiliarityTechnoology
