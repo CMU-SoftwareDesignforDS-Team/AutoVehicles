@@ -97,3 +97,9 @@ RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyc
 
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/8e5e889d-54cf-4533-89e5-320577462dfa)
 
+# Data Preparation
+## Process Categorical Data
+Use One Hot Encoder to handle categorical data to make them ready for classification models, such as random forest. 
+
+![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/263dac05-a2a1-4867-804a-34aab800deb2)
+
