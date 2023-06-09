@@ -80,13 +80,14 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
    5                 34<br>
    No experience      6<br>
 <br>
+![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/5519a718-04f5-4241-8583-0037b8e6645a)<br>
 
 ## Data quality summary
 - There are no duplicates in the file.
 - Categorical missing values: treat missing values as a separate category. 
 - Numerical missing values: The variable SafetyAv is left-skewed. We chose to use Mean Imputation.<br>
-![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/b555f6a2-3160-4e65-b209-f3d684a2da09)
-
+![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/b555f6a2-3160-4e65-b209-f3d684a2da09)<br>
+- After handling missing values
 
 ## Target variable
 AvSafetyPotential
