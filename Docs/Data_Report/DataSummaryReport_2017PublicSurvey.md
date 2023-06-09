@@ -88,6 +88,7 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
 - Numerical missing values: The variable SafetyAv is left-skewed. We chose to use Mean Imputation.<br>
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/b555f6a2-3160-4e65-b209-f3d684a2da09)<br>
 - After handling missing values
+![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/650f77e0-5f40-4d25-a06d-cc549dc3293e)<br>
 
 ## Target variable
 AvSafetyPotential
