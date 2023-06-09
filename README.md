@@ -1,4 +1,3 @@
-# Project Structure, and Documents and Artifact Templates
 
 This is the project repository for Team Diverse Data Dynamics, a group participating in the CMU course "Software Design for Data Scientists." Our team specializes in utilizing data science techniques to address marketing challenges.
 
