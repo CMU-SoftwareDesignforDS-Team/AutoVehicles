@@ -149,7 +149,8 @@ RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyc
 
 ## Variables Ranking
 
-From the strongest association to the least association based on the above p-value of the Correlation Analysis:
+From the strongest association to the least association based on the above p-value of the Correlation Analysis: <br>
+
 SafeAv, ProvingGround, ArizonaCrash, FamiliarityTech, Speed25Mph, ReportSafetyIncident, SchoolZoneManual, SharedPedestrian, FamiliarityNews, SafeHuman, SharePerformanceData, TwoEmployeesAv, 
 SmartphoneOwner, ShareTripData, ZipCode, SharedCyclist
 
