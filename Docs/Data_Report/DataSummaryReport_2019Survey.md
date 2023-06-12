@@ -38,7 +38,6 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
 
 
 
-
 ## Target variable
 AvImpact
 
@@ -146,8 +145,15 @@ RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyc
   - Interpretation: The p-value is relatively large, indicating that there is no significant evidence to suggest an association between AvImpact and ReportSafetyIncident Age.
 <br>
 
-
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/8e5e889d-54cf-4533-89e5-320577462dfa)
+
+## Variables Ranking
+
+From the strongest association to the least association based on the above p-value of the Correlation Analysis:
+SafeAv, ProvingGround, ArizonaCrash, FamiliarityTech, Speed25Mph, ReportSafetyIncident, SchoolZoneManual, SharedPedestrian, FamiliarityNews, SafeHuman, SharePerformanceData, TwoEmployeesAv, 
+SmartphoneOwner, ShareTripData, ZipCode, SharedCyclist
+
+
 
 # Data Preparation
 ## Process Categorical Data
