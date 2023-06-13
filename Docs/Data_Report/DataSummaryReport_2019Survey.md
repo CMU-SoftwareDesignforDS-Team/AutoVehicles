@@ -38,8 +38,9 @@ Data Source: https://catalog.data.gov/dataset/autonomous-vehicle-survey-of-bicyc
 
 
 
-## Target variable
-AvImpact
+## Target variable I
+- AvImpact
+
 
 ## Individual variables
 RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyclist, SharedPedestrian, SafeAv, SafeHuman <br>
@@ -155,10 +156,45 @@ SafeAv, ProvingGround, ArizonaCrash, FamiliarityTech, Speed25Mph, ReportSafetyIn
 SmartphoneOwner, ShareTripData, ZipCode, SharedCyclist
 
 
+## Target variable II
+- SafeAv
+
+
+## Individual variables
+RespondentID,  StartDate,  EndDate,  FamiliarityNews, FamiliarityTech, SharedCyclist, SharedPedestrian, AvImpact, SafeHuman <br>
+,ProvingGround, Speed25Mph, TwoEmployeesAv, SchoolZoneManual, ShareTripData, SharePerformanceData, ReportSafetyIncident, ArizonaCrash, ZipCode, BikePghMember, AutoOwner, SmartphoneOwner, Age
+
+## Relationship between explanatory variables and target variable <br>
+| Cramér's V  |SafeAv |  Rank   | 
+|--------|------------|--------|
+| SafeAv | 1.000      | 1      |    
+| AvImpact | 0.441      | 2      |    
+| ProvingGround | 0.413      | 3      |    
+| Speed25Mph | 0.280      | 4      |    
+| ArizonaCrash | 0.266      | 5      |    
+| ReportSafetyIncident | 0.244      | 6      |   
+| SharePerformanceData | 0.237      | 7      |    
+| FamiliarityTech | 0.235      | 8      |   
+| SchoolZoneManual | 0.207      | 9      |  
+| ShareTripData | 0.198      | 10      |   
+| SharedPedestrian | 0.179      | 11      |  
+| ZipCode | 0.166      | 12      | 
+| TwoEmployeesAv | 0.154      | 13      | 
+| SmartphoneOwner | 0.145      | 14      | 
+| FamiliarityNews | 0.132      | 15      | 
+| SafeHuman | 0.120      | 16      |
+| SharedCyclist | 0.115      | 17      |  
+| BikePghMember | 0.085      | 18      |   
+| AutoOwner | 0.033      | 19      |  
+| Age | 0.000      | 20      |
+
 
 # Data Preparation
 ## Process Categorical Data
 Use One Hot Encoder to handle categorical data to make them ready for classification models, such as random forest. 
 
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/263dac05-a2a1-4867-804a-34aab800deb2)
+
+
+
 
