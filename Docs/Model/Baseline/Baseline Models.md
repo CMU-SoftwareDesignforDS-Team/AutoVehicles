@@ -11,7 +11,8 @@
   Classification Model
    ** Models and Parameters
       - Data flow graph
-        ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/4cd6f28a-f11a-433a-abc7-7674183b2ba2)
+        ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/4cd6f28a-f11a-433a-abc7-7674183b2ba2) 
+	</br>
 
       - Learner(s) were used
         Logistic Regression  </br>
@@ -31,11 +32,17 @@
 
 Significant Features:
 x0_Mostly familiar, x0_Not familiar at all, x0_Somewhat familiar: These variables represent different levels of familiarity with Tech. It suggests that familiarity with tech is an important factor in predicting the target variable. </br>
+
 x1_Yes: This variable is from SharePerformanceData. Its inclusion suggests that the presence of this condition is an important predictor. </br>
+
 x3_No change: This variable is from ArizonaCrash which suggests that the absence of change about ArizonaCrash is predictive of the target variable. </br>
+
 x4_No, x4_Not sure: These variables are from Speed25Mgh. Their inclusion suggests that these attribute levels play a role in predicting the target variable. </br>
+
 x5_Approve, x5_Disapprove, x5_Somewhat Approve, x5_Somewhat Disapprove: These variables are from ProvingGround. Their presence indicates that the degree of approval or disapproval is important for predicting the target variable.</br>
+
 x6_No effect, x6_Significantly Better, x6_Slightly Better, x6_Slightly Worse: These variables are from AvImpact. Their inclusion suggests that how people think about AV’s impact on traffic injuries and fatalities is influential in predicting the target variable. </br>
+
 x7_Not sure, x7_Yes: These variables are from SchoolZoneManual. Their inclusion suggests that people’s opinion on AVs operating in manual mode while in an active school zone are important predictors. </br>
 
 
@@ -47,36 +54,36 @@ Variable: x5_Disapprove [ProvingGround]
  - Interpretation: Holding all other variables constant, each unit increase in x5_Disapprove is associated with a decrease in the log-odds (or probability) of the 'SafeAv' outcome by approximately 1.985329.
 
 Variable: x6_Slightly Worse [AvImpact]
-Coefficient: -1.391531
-Interpretation: Holding all other variables constant, each unit increase in x6_Slightly Worse is associated with a decrease in the log-odds (or probability) of the 'SafeAv' outcome by approximately 1.391531.
+ - Coefficient: -1.391531
+ - Interpretation: Holding all other variables constant, each unit increase in x6_Slightly Worse is associated with a decrease in the log-odds (or probability) of the 'SafeAv' outcome by approximately 1.391531.
+
 Variable: x6_Significantly Worse [AvImpact]
+- Coefficient: -0.811621
+- Interpretation: Holding all other variables constant, each unit increase in x6_Significantly Worse is associated with a decrease in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.811621.
 
-Coefficient: -0.811621
-Interpretation: Holding all other variables constant, each unit increase in x6_Significantly Worse is associated with a decrease in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.811621.
 Variable: x1_Yes [FamiliarityTech]
+- Coefficient: -0.712680
+- Interpretation: Holding all other variables constant, having a value of "Yes" for x1 is associated with a decrease in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.712680.
 
-Coefficient: -0.712680
-Interpretation: Holding all other variables constant, having a value of "Yes" for x1 is associated with a decrease in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.712680.
 Variable: x1_Missing [FamiliarityTech]
+ - Coefficient: 0.554717
+ - Interpretation: Holding all other variables constant, having a missing value for x1 is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.554717.
 
-Coefficient: 0.554717
-Interpretation: Holding all other variables constant, having a missing value for x1 is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.554717.
 Variable: x6_Slightly Better [AvImpact]
+ - Coefficient: 0.808791
+ - Interpretation: Holding all other variables constant, each unit increase in x6_Slightly Better is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.808791.
 
-Coefficient: 0.808791
-Interpretation: Holding all other variables constant, each unit increase in x6_Slightly Better is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.808791.
 Variable: x5_Somewhat Approve [ProvingGround]
+ - Coefficient: 0.964861
+ - Interpretation: Holding all other variables constant, each unit increase in x5_Somewhat Approve is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.964861.
 
-Coefficient: 0.964861
-Interpretation: Holding all other variables constant, each unit increase in x5_Somewhat Approve is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 0.964861.
 Variable: x6_Significantly Better [AvImpact]
-
-Coefficient: 1.027432
-Interpretation: Holding all other variables constant, each unit increase in x6_Significantly Better is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 1.027432.
+ - Coefficient: 1.027432
+ - Interpretation: Holding all other variables constant, each unit increase in x6_Significantly Better is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 1.027432.
+ 
 Variable: x5_Approve [ProvingGround]
-
-Coefficient: 1.247081
-Interpretation: Holding all other variables constant, each unit increase in x5_Approve is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 1.247081.
+ - Coefficient: 1.247081
+ - Interpretation: Holding all other variables constant, each unit increase in x5_Approve is associated with an increase in the log-odds (or probability) of the 'SafeAv' outcome by approximately 1.247081.
 
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/3ac91e2f-f296-4ba1-b760-9754bd78fa43)  </br>
 
