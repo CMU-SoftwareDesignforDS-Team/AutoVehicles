@@ -10,7 +10,7 @@
   </br>
 
 ## Model Description (data flow)
-  - Logistic Regression
+  - Logistic Regression </br>
         ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/4cd6f28a-f11a-433a-abc7-7674183b2ba2) 
 
 	
