@@ -37,6 +37,7 @@
 
 
 ## Architecture
+
 # Data
 Based on the data available and the business context, we can expect the following data:
 1. Daw Data Sources:
