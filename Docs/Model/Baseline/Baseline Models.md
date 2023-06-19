@@ -9,12 +9,10 @@
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/08483f67-454c-476e-a7f5-aa95e1834a7c)
   </br>
 
-## Model Description 
-  - Data flow graph
+## Model Description (data flow)
+  - Logistic Regression
         ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/4cd6f28a-f11a-433a-abc7-7674183b2ba2) 
-	
-   - Learner(s) were used
-        Logistic Regression 
+
 	
 
 ## Results (Model Performance)
