@@ -10,10 +10,10 @@
   </br>
 
 ## Model Description 
-      - Data flow graph
+  - Data flow graph
         ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/4cd6f28a-f11a-433a-abc7-7674183b2ba2) 
-	 </br>
-      - Learner(s) were used
+	
+   - Learner(s) were used
         Logistic Regression 
 	
 
