@@ -38,7 +38,7 @@
 
 ## Architecture
 
-# Data
+### Data
 Based on the data available and the business context, we can expect the following data:
 1. Daw Data Sources:
    * bikepghmembers2017.csv: This dataset contains information about bike Pittsburgh members, which may include demographic data, preferences, and other relevant details.
@@ -48,7 +48,7 @@ Based on the data available and the business context, we can expect the followin
    * av_2019Survey: This processed dataset is derived from the avsurvey2019data.csv. It may include transformed and cleaned survey data that is ready for analysis.
    * bikepghpublic2017: This processed dataset is derived from bikepghpublic2017.csv. It may include cleaned and transformed data related to public perceptions and attitudes toward AV taxi services.
 
-# Data Movement
+### Data Movement
 Based on the amount of data available in the datasets: "bikepghmembers2017.csv," "avsurvey2019data.csv," and "bikepghpublic2017.csv." We plan on moving all the data to have sufficient data for the model<br>
 
 To build the model, the data movement process will involve the following steps:
@@ -58,13 +58,13 @@ To build the model, the data movement process will involve the following steps:
 * Model Training: Apply the algorithms to train the model using the training data. 
 * Model Evaluation: Assess the performance of the trained model using the testing data.
 
-# Data Storage And Analytics
+### Data Storage And Analytics
 To manage the data and perform analytics in the project, we’ll use the following tools and resources:
 * Our data is small enough to be saved in a file. We will use a .csv file 
 * We will use Python libraries like pandas, NumPy, and SciPy for data processing and analysis.
 * We will use Scikit-learn for classification, regression, clustering, etc.
 
-# Model Consumption
+### Model Consumption
 The scores generated from the solution can be consumed in the business workflow of the customer through API calls. The customer's application or system can make HTTP requests to the web service API endpoints to obtain the desired predictions or results. Below is a pseudo code example illustrating how the web service API calls can be made:
 
 ```Python
@@ -100,7 +100,7 @@ else:
     # ...
 ```
 
-# Model Use for Decision Making
+### Model Use for Decision Making
 Our potential clients will use the model results to make decisions related to targeted marketing strategies, promotional activities, and customer engagement efforts for their autonomous taxi service. The model results, which predict customer interest in using the AV taxi service, will help the customer identify and prioritize potential customers who are more likely to be interested and feel comfortable using the service.<br>
 
 Here is a high-level overview of how the customer may use the model results to make decisions:
@@ -113,14 +113,14 @@ Here is a high-level overview of how the customer may use the model results to m
     * The client(s) can use the model results to personalize their customer engagement efforts. They can customize their communication channels, messages, and offers based on the predicted customer interest, increasing the chances of attracting and retaining potential customers.
 * The client(s) can continuously evaluate the effectiveness of their decisions and refine their marketing strategies based on the feedback and outcomes. They can analyze the success metrics, such as customer adoption rate, app usage, feedback, and customer satisfaction, to assess the impact of their decisions and make further improvements.
 
-# Data Movement in Production
+### Data Movement in Production
 * The CSV file containing the raw data is saved in the application folder
 * Use Python libraries to ingest the data and load it into memory
 * Feed the data into the predictive model to generate outcomes “Yes/No”
 * Deploy the model on Heroku
 * Model outputs are captured and utilized by the client(s)’ systems
 
-# End to End Data Flow and Decision Architecture
+### End to End Data Flow and Decision Architecture
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/f3694b99-ca7e-4235-a37d-f07191aa062c)
 
 ## Communication
