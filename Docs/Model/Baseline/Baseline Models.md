@@ -5,7 +5,7 @@
   SafeAv : On a typical day; how safe do you feel sharing the road with autonomous vehicles? (1 being very unsafe and 5 being very safe)
   </br>
   
-* Model Inputs
+* Model Inputs </br>
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/08483f67-454c-476e-a7f5-aa95e1834a7c)
   </br>
 
@@ -13,8 +13,7 @@
   Classification Model
    ** Models and Parameters
       - Data flow graph
-        ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/4cd6f28a-f11a-433a-abc7-7674183b2ba2) 
-
+        ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/75749274/4cd6f28a-f11a-433a-abc7-7674183b2ba2)  </br>
       - Learner(s) were used
         Logistic Regression  </br>
 	
