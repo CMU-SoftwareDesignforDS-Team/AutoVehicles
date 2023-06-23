@@ -90,10 +90,10 @@ Furthermore, the challenges encountered with the compatibility of datasets serve
 Ultimately, our experience demonstrated the iterative nature of model development and the importance of adapting and refining our approach based on feedback and results. By being open to alternative methods and continuously evaluating and improving our models, we were able to achieve substantial improvements in accuracy and gain valuable insights for future classification tasks.
 
 ### Product
-During the development of our product, we made the decision to create separate pipelines for the Application and the Model, as depicted in the diagram found in the Software Architecture Document section of the report. This approach proved beneficial in maintaining code modularity and allowing our team to work simultaneously with minimal complications.<br>
-Once the model and Web application were constructed on our local machines, we transferred the files to our team repository on GitHub. While using GitHub was an unfamiliar process for most of the team members, we quickly adapted and became proficient in pushing code to the shared repository. To handle user input received from the “index.html” file, we utilized a file named "routes.py". This file converted the input to JSON data and forwarded it to the model API. Subsequently, the routes.py file obtained the model's response (a recommendation of "yes" or "no") and passed it to the index.html file for display to the user.<br>
-For testing our application locally, we employed Flask (Python). However, we encountered some issues related to Flask's default ports. After troubleshooting, we discovered that macOS uses port 5000, which conflicts with Flask's default port. To address this, we switched to another port using the command line instruction "flask run --port". We successfully tested the application using port 3000, ensuring proper functionality of both the model and the application.<br>
-Once we confirmed the model's accuracy and ensured a user-friendly interface, we proceeded to set up the CI/CD pipeline on Heroku. We connected our GitHub repositories to Heroku and initiated the deployment process. During this stage, we encountered minor setbacks when performing manual deployment. Heroku did not support some of the Python libraries specified in our requirements.txt file. However, we managed to overcome this obstacle by removing the unsupported libraries. To ensure proper functionality, we conducted additional testing after deploying the model and application on Heroku.<br>
+During the development of our product, we made the decision to create separate pipelines for the Application and the Model, as depicted in the diagram found in the Software Architecture Document section of the report. This approach proved beneficial in maintaining code modularity and allowing our team to work simultaneously with minimal complications.<br><br>
+Once the model and Web application were constructed on our local machines, we transferred the files to our team repository on GitHub. While using GitHub was an unfamiliar process for most of the team members, we quickly adapted and became proficient in pushing code to the shared repository. To handle user input received from the “index.html” file, we utilized a file named "routes.py". This file converted the input to JSON data and forwarded it to the model API. Subsequently, the routes.py file obtained the model's response (a recommendation of "yes" or "no") and passed it to the index.html file for display to the user.<br><br>
+For testing our application locally, we employed Flask (Python). However, we encountered some issues related to Flask's default ports. After troubleshooting, we discovered that macOS uses port 5000, which conflicts with Flask's default port. To address this, we switched to another port using the command line instruction "flask run --port". We successfully tested the application using port 3000, ensuring proper functionality of both the model and the application.<br><br>
+Once we confirmed the model's accuracy and ensured a user-friendly interface, we proceeded to set up the CI/CD pipeline on Heroku. We connected our GitHub repositories to Heroku and initiated the deployment process. During this stage, we encountered minor setbacks when performing manual deployment. Heroku did not support some of the Python libraries specified in our requirements.txt file. However, we managed to overcome this obstacle by removing the unsupported libraries. To ensure proper functionality, we conducted additional testing after deploying the model and application on Heroku.<br><br>
 A few members of our team were unfamiliar with Flask and Heroku, so this project served as an excellent opportunity for us to learn and utilize these tools effectively. Acquiring the skills to locally test applications through Flask and subsequently deploy them to production using Heroku proved invaluable and can be applied to future data science projects.
 
 ###	Challenges
@@ -110,21 +110,21 @@ Based on the metrics stated earlier in the report, the goal is to improve the us
 After promotion of the free AV taxi-ride app for 4 weeks, we will re-survey people in the Pittsburgh area to hopefully improve the population's opinion on sharing the road with autonomous vehicles.
 
 ## Appendix
-* Figure1
+* Figure1<br>
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/cfa8ef23-07b3-470e-b07d-73692d2bbff1)
-* Figure2
+* Figure2<br>
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/1df5393c-daa6-4dad-a81d-bb7f0e697d75)
-* Figure3
+* Figure3<br>
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/e133b9a8-5c74-458f-a1d0-5000fcbef9af)
-* Figure4 Model Accuracy
+* Figure4 Model Accuracy<br>
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/24b73715-c622-4d73-a131-9c3c896cd60a)
-* Figure5 Coefficients
+* Figure5 Coefficients<br>
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/1f02c31f-9a31-447b-9a36-569ae24b0fce)
   
 Feature Sets Summary
 * 2019SurveryFeatures contains 66 non-missing variables. Below is the snapshot of
-2019SurveryFeatures:
+2019SurveryFeatures:<br>
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/e4e8b65e-9b17-4d37-a3a6-92927dbb91a4)
 *  2017PublicSurveyFeatures contains 54 non-missing variables. Below is a snapshot of the
-survey features:
+survey features:<br>
   ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/18d91959-2687-4d7a-8566-3c498f7e7e03)
