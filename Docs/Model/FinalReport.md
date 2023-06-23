@@ -37,7 +37,7 @@ important predictors.
 
 * Insights Derived from the Model:<br>
 From the model coefficients below, we can see that the top 3 influence variables are x5, x6,
-and x1 which represent ProvingGround, AvImpact, and FamiliarityTech.<br>
+and x1 which represent ProvingGround, AvImpact, and FamiliarityTech.<br><br>
 Specifically,<br>
 Variable: x5_Disapprove [ProvingGround]<br>
 Coefficient: -1.985329<br>
