@@ -32,7 +32,7 @@ The implemented solution involved deploying a Flask app on Heroku to serve a pre
 * Data Ingestion and Preprocessing: The raw data in a CSV format is stored in the model repository. Python libraries, such as pandas and scikit-learn, are used to ingest and load the data into memory.
 * The data is fed into a trained predictive model to generate outcomes ("Yes/No"). Logistic regression from the scikit-learn library is used as the modeling algorithm for this classification task. The model is integrated into a Flask app, allowing it to process input data and provide predictions.
 * The Flask app, along with the integrated predictive model, is deployed on the Heroku platform. The Heroku Procfile specifies the configuration for running the app using the gunicorn WSGI server. Dependencies are specified in the requirements.txt file, ensuring that all necessary libraries are installed during deployment.
-*Clients' systems can interact with the deployed Flask app by sending input data and receiving the predicted outcomes. The Flask app's endpoints and routes are designed to handle incoming requests and provide responses with the predicted outcomes. Clients can integrate the model outputs into their systems to utilize the information for further analysis or decision-making.
+* Clients' systems can interact with the deployed Flask app by sending input data and receiving the predicted outcomes. The Flask app's endpoints and routes are designed to handle incoming requests and provide responses with the predicted outcomes. Clients can integrate the model outputs into their systems to utilize the information for further analysis or decision-making.
 
 ###	Architecture Benefits
 * Heroku provides a scalable platform for hosting and managing the Flask app, allowing it to handle a large number of requests and users.
@@ -41,11 +41,11 @@ The implemented solution involved deploying a Flask app on Heroku to serve a pre
 * The use of Python libraries, such as pandas and scikit-learn, provides a wide range of tools and resources for data processing and modeling tasks.
 * The Flask app can be accessed via API endpoints, enabling seamless integration with clients' systems and workflows.
 * With the app deployed on Heroku, clients can receive predictions in real-time, making it suitable for applications that require immediate responses.
- Compared to other architectures considered, this solution offers a lightweight and scalable approach by leveraging Flask and Heroku. It allows for easy development, deployment, and integration of the predictive model, making it suitable for small to medium-scale applications. 
+Compared to other architectures considered, this solution offers a lightweight and scalable approach by leveraging Flask and Heroku. It allows for easy development, deployment, and integration of the predictive model, making it suitable for small to medium-scale applications. 
 
 ###	Reproducing a similar approach
 * Set up Flask App
-* Store the raw data in a CSV format in a suitable location, such as a local directory or a cloud storage service.and use pandas to ingest the data into memory by reading the CSV file using the `read_csv()` function..
+* Store the raw data in a CSV format in a suitable location, such as a local directory or a cloud storage service, and use pandas to ingest the data into memory by reading the CSV file using the `read_csv()` function..
 * Train and Save the Predictive Model
 * Build Flask App
 * Deploy to Heroku
@@ -62,6 +62,7 @@ To make the solution architecture scalable, here are proposed architecture updat
 * Use distributed file storage systems like Hadoop Distributed File System (HDFS) or Amazon S3 for efficient storage and retrieval of data.
 * Implement monitoring and logging mechanisms to gain insights into the system's performance, identify bottlenecks, and detect anomalies. Tools like Prometheus and Grafana can help monitor key metrics and visualize the system's health.
 * Use Heroku auto-scaling features to automatically adjust the number of instances based on defined metrics such as CPU usage or request throughput.
+
 
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/e8b1e3fd-79b7-48b2-ae3f-00eec7d5ebe5)
 
