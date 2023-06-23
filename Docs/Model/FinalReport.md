@@ -16,22 +16,22 @@ SafeAv: On a typical day; how safe do you feel sharing the road with autonomous 
 
 ## Model Understanding
 * Variable Importance (significance)
-** x0_Mostly familiar, x0_Not familiar at all, x0_Somewhat familiar: These variables represent
+    * x0_Mostly familiar, x0_Not familiar at all, x0_Somewhat familiar: These variables represent
 different levels of familiarity with Tech. It suggests that familiarity with tech is an important
 factor in predicting the target variable.
-** x1_Yes: This variable is from SharePerformanceData. Its inclusion suggests that the
+    * x1_Yes: This variable is from SharePerformanceData. Its inclusion suggests that the
 presence of this condition is an important predictor.
-** x3_No change: This variable is from ArizonaCrash which suggests that the absence of
+    * x3_No change: This variable is from ArizonaCrash which suggests that the absence of
 change about ArizonaCrash is predictive of the target variable.
-** x4_No, x4_Not sure: These variables are from Speed25Mgh. Their inclusion suggests that
+    * x4_No, x4_Not sure: These variables are from Speed25Mgh. Their inclusion suggests that
 these attribute levels play a role in predicting the target variable.
-** x5_Approve, x5_Disapprove, x5_Somewhat Approve, x5_Somewhat Disapprove: These
+    * x5_Approve, x5_Disapprove, x5_Somewhat Approve, x5_Somewhat Disapprove: These
 variables are from ProvingGround. Their presence indicates that the degree of approval or
 disapproval is important for predicting the target variable.
-** x6_No effect, x6_Significantly Better, x6_Slightly Better, x6_Slightly Worse: These variables
+    * x6_No effect, x6_Significantly Better, x6_Slightly Better, x6_Slightly Worse: These variables
 are from AvImpact. Their inclusion suggests that how people think about AV’s impact on
 traffic injuries and fatalities is influential in predicting the target variable.
-** x7_Not sure, x7_Yes: These variables are from SchoolZoneManual. Their inclusion suggests
+    * x7_Not sure, x7_Yes: These variables are from SchoolZoneManual. Their inclusion suggests
 that people’s opinions on AVs operating in manual mode while in an active school zone are
 important predictors.
 
