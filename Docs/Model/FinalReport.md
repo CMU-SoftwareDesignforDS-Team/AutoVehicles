@@ -1,19 +1,18 @@
 # Model Report
 
 ## Analytic Approach
-* Target definition
- * SafeAv: On a typical day; how safe do you feel sharing the road with autonomous
-vehicles? (1 being very unsafe and 5 being very safe) 
+* Target definition<br>
+SafeAv: On a typical day; how safe do you feel sharing the road with autonomous vehicles? (1 being very unsafe and 5 being very safe) 
 * Model Inputs (description)<br>
 ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/5f5dfbd9-996a-443f-bdfb-ccbb8f5ceef4)
 * What kind of model was built?
- * Classification Model 
+** Classification Model 
 
 ## Model Description
 * Models and Parameters
- * Data flow graph<br>
+** Data flow graph<br>
  ![image](https://github.com/CMU-SoftwareDesignforDS-Team/AutoVehicles/assets/83882370/8e9f6eff-4f0a-4642-b9fc-4217c2d2c04e)
- * Learner(s) were used: Logistic Regression
+** Learner(s) were used: Logistic Regression
 
 ## Model Understanding
 * Variable Importance (significance)
