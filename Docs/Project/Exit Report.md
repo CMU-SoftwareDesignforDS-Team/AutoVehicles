@@ -102,8 +102,8 @@ During the initial local testing of the application using Flask, we discovered t
 Through collaboration and troubleshooting, our team successfully resolved the communication issue between the User Interface, Routing file, and the model. This experience highlighted the importance of attention to detail and consistent variable naming in maintaining smooth interactions within the application. By addressing these challenges, we were able to ensure the proper functioning of the application and achieve our development goals.
 
 ##	Links
-	* [Team GitHub Repo](https://github.com/orgs/CMU-SoftwareDesignforDS-Team/repositories)
-	* [Application on Heroku](https://av-web-app-7937597eefbd.herokuapp.com/)
+[Team GitHub Repo](https://github.com/orgs/CMU-SoftwareDesignforDS-Team/repositories)
+[Application on Heroku](https://av-web-app-7937597eefbd.herokuapp.com/)
 
 ##	Next Steps
 Based on the metrics stated earlier in the report, the goal is to improve the users feeling of safety and comfortability by 10% in 4 weeks time.<br><br>
